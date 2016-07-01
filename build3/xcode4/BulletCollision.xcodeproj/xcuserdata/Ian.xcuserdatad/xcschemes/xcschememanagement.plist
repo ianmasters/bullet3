@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0FF524B2259B07EF125065FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CFAAB981D26398B00F651D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CFAABFF1D263A2B00F651D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
