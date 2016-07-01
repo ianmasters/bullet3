@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "17474CEE3E7E65E933BE3BAA"
-               BuildableName = "libLinearMath_xcode4_x64_release.a"
+               BuildableName = "libBulletLinearMathMac.a"
                BlueprintName = "LinearMath"
                ReferencedContainer = "container:LinearMath.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17474CEE3E7E65E933BE3BAA"
-            BuildableName = "libLinearMath_xcode4_x64_release.a"
+            BuildableName = "libBulletLinearMathMac.a"
             BlueprintName = "LinearMath"
             ReferencedContainer = "container:LinearMath.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "17474CEE3E7E65E933BE3BAA"
-            BuildableName = "libLinearMath_xcode4_x64_release.a"
+            BuildableName = "libBulletLinearMathMac.a"
             BlueprintName = "LinearMath"
             ReferencedContainer = "container:LinearMath.xcodeproj">
          </BuildableReference>

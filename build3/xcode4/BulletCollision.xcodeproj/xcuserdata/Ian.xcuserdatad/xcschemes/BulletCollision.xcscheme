@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0FF524B2259B07EF125065FA"
-               BuildableName = "lib.a"
+               BuildableName = "libBulletCollisionMac.a"
                BlueprintName = "BulletCollision"
                ReferencedContainer = "container:BulletCollision.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FF524B2259B07EF125065FA"
-            BuildableName = "lib.a"
+            BuildableName = "libBulletCollisionMac.a"
             BlueprintName = "BulletCollision"
             ReferencedContainer = "container:BulletCollision.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0FF524B2259B07EF125065FA"
-            BuildableName = "lib.a"
+            BuildableName = "libBulletCollisionMac.a"
             BlueprintName = "BulletCollision"
             ReferencedContainer = "container:BulletCollision.xcodeproj">
          </BuildableReference>

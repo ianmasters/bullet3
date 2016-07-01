@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "547819180B686922463606BC"
-               BuildableName = "libBulletSoftBody_xcode4_x64_release.a"
+               BuildableName = "libBulletSoftBodyMac.a"
                BlueprintName = "BulletSoftBody"
                ReferencedContainer = "container:BulletSoftBody.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "547819180B686922463606BC"
-            BuildableName = "libBulletSoftBody_xcode4_x64_release.a"
+            BuildableName = "libBulletSoftBodyMac.a"
             BlueprintName = "BulletSoftBody"
             ReferencedContainer = "container:BulletSoftBody.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "547819180B686922463606BC"
-            BuildableName = "libBulletSoftBody_xcode4_x64_release.a"
+            BuildableName = "libBulletSoftBodyMac.a"
             BlueprintName = "BulletSoftBody"
             ReferencedContainer = "container:BulletSoftBody.xcodeproj">
          </BuildableReference>
