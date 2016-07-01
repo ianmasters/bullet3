@@ -109,6 +109,8 @@ protected:
 
 public:
 
+  static btScalar s_transformScale;
+  
 	//this constructor doesn't own the dispatcher and paircache/broadphase
 	btCollisionWorld(btDispatcher* dispatcher,btBroadphaseInterface* broadphasePairCache, btCollisionConfiguration* collisionConfiguration);
 

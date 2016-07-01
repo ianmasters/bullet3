@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD02AD23789515AF5D416F876100FE38242DE7E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD02AD23789515AF5D416F876100FE38242DE7E4" : 0,
+    "0D149A36E435D9D48C3939E31B973EB199C5AA7D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "79403E05-48DA-4B1B-81FA-30E917764167",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD02AD23789515AF5D416F876100FE38242DE7E4" : "bullet\/",
+    "0D149A36E435D9D48C3939E31B973EB199C5AA7D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "0_Bullet3Solution",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "build3\/xcode4\/0_Bullet3Solution.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mysticcoder_pl\/quest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D149A36E435D9D48C3939E31B973EB199C5AA7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bulletphysics\/bullet3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD02AD23789515AF5D416F876100FE38242DE7E4"
+    }
+  ]
+}

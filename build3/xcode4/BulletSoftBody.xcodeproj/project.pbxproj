@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F779583B6434C25C936905 /* btSoftBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AE32A4A15EF133B11470250 /* btSoftBody.cpp */; };
+		38C7378337D103E2127A1A7F /* btSoftBodyHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E0E5E7C6F66C733493A16 /* btSoftBodyHelpers.cpp */; };
+		394E4662622979C307E03835 /* btDefaultSoftBodySolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0C6A3CA5255904801936 /* btDefaultSoftBodySolver.cpp */; };
+		3F39491A5F7A54AC18564965 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D690D4972E404165D084BE3 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */; };
+		477F75EA07271DEE03805A4D /* btSoftSoftCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DF8285E4A342DAA239A12E4 /* btSoftSoftCollisionAlgorithm.cpp */; };
+		4B732BF9720469896200758C /* btSoftRigidDynamicsWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 560F7A3A7D77193167234D08 /* btSoftRigidDynamicsWorld.cpp */; };
+		73A30A3C048146DD134F40DF /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47E247730F9F396F281D2F58 /* btSoftBodyConcaveCollisionAlgorithm.cpp */; };
+		74FF3AEE0A8C6F3324110654 /* btSoftRigidCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45C944A66F4528914AFF2D15 /* btSoftRigidCollisionAlgorithm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028D07C92FD96BE9309271F7 /* btSoftSoftCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftSoftCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.h; sourceTree = "<group>"; };
+		058B210551A33D07180D2B7B /* btSoftBodySolvers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodySolvers.h; path = ../../src/BulletSoftBody/btSoftBodySolvers.h; sourceTree = "<group>"; };
+		10407744409F27D47CCE4BA4 /* btSoftBodyHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyHelpers.h; path = ../../src/BulletSoftBody/btSoftBodyHelpers.h; sourceTree = "<group>"; };
+		169F2B922C700CE80653653E /* btSoftBodyData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyData.h; path = ../../src/BulletSoftBody/btSoftBodyData.h; sourceTree = "<group>"; };
+		1CDD0C6A3CA5255904801936 /* btDefaultSoftBodySolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btDefaultSoftBodySolver.cpp; path = ../../src/BulletSoftBody/btDefaultSoftBodySolver.cpp; sourceTree = "<group>"; };
+		1DF8285E4A342DAA239A12E4 /* btSoftSoftCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftSoftCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftSoftCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		1F6E780652976FF9658270D1 /* libBulletSoftBodyMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBulletSoftBodyMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2289527F21481EB847074F13 /* btSoftBodyInternals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyInternals.h; path = ../../src/BulletSoftBody/btSoftBodyInternals.h; sourceTree = "<group>"; };
+		24DC2486742939A90D3716B8 /* btSoftBodyConcaveCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyConcaveCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.h; sourceTree = "<group>"; };
+		264D17E031C10B38271F2231 /* btSoftRigidCollisionAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftRigidCollisionAlgorithm.h; path = ../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.h; sourceTree = "<group>"; };
+		31E8794F4FD87FD32F050D72 /* btSparseSDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSparseSDF.h; path = ../../src/BulletSoftBody/btSparseSDF.h; sourceTree = "<group>"; };
+		3AE32A4A15EF133B11470250 /* btSoftBody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBody.cpp; path = ../../src/BulletSoftBody/btSoftBody.cpp; sourceTree = "<group>"; };
+		3F50376953AE7770104553E6 /* btSoftBodyRigidBodyCollisionConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodyRigidBodyCollisionConfiguration.h; path = ../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h; sourceTree = "<group>"; };
+		42E576283DC84EF13B9357D4 /* btDefaultSoftBodySolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btDefaultSoftBodySolver.h; path = ../../src/BulletSoftBody/btDefaultSoftBodySolver.h; sourceTree = "<group>"; };
+		45C944A66F4528914AFF2D15 /* btSoftRigidCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftRigidCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		47E247730F9F396F281D2F58 /* btSoftBodyConcaveCollisionAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyConcaveCollisionAlgorithm.cpp; path = ../../src/BulletSoftBody/btSoftBodyConcaveCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		560F7A3A7D77193167234D08 /* btSoftRigidDynamicsWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftRigidDynamicsWorld.cpp; path = ../../src/BulletSoftBody/btSoftRigidDynamicsWorld.cpp; sourceTree = "<group>"; };
+		5D2E0E5E7C6F66C733493A16 /* btSoftBodyHelpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyHelpers.cpp; path = ../../src/BulletSoftBody/btSoftBodyHelpers.cpp; sourceTree = "<group>"; };
+		60741A4537D32B8E13367233 /* btSoftRigidDynamicsWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftRigidDynamicsWorld.h; path = ../../src/BulletSoftBody/btSoftRigidDynamicsWorld.h; sourceTree = "<group>"; };
+		613F06C847990E9248F5763A /* btSoftBodySolverVertexBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBodySolverVertexBuffer.h; path = ../../src/BulletSoftBody/btSoftBodySolverVertexBuffer.h; sourceTree = "<group>"; };
+		72357FE1364B16AB38EC2CC1 /* btSoftBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSoftBody.h; path = ../../src/BulletSoftBody/btSoftBody.h; sourceTree = "<group>"; };
+		7D690D4972E404165D084BE3 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSoftBodyRigidBodyCollisionConfiguration.cpp; path = ../../src/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652E5BF62B813E2121043478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0D7D2C7941488D58614D5C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6F0D51804CDE08BF38FE3E29 /* BulletSoftBody */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		437574625D397C6421833B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E780652976FF9658270D1 /* libBulletSoftBodyMac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B508B01AC73B0C3A843E31 /* BulletSoftBody */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D7D2C7941488D58614D5C /* src */,
+				437574625D397C6421833B3E /* Products */,
+			);
+			name = BulletSoftBody;
+			sourceTree = "<group>";
+		};
+		6F0D51804CDE08BF38FE3E29 /* BulletSoftBody */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD0C6A3CA5255904801936 /* btDefaultSoftBodySolver.cpp */,
+				42E576283DC84EF13B9357D4 /* btDefaultSoftBodySolver.h */,
+				3AE32A4A15EF133B11470250 /* btSoftBody.cpp */,
+				72357FE1364B16AB38EC2CC1 /* btSoftBody.h */,
+				47E247730F9F396F281D2F58 /* btSoftBodyConcaveCollisionAlgorithm.cpp */,
+				24DC2486742939A90D3716B8 /* btSoftBodyConcaveCollisionAlgorithm.h */,
+				169F2B922C700CE80653653E /* btSoftBodyData.h */,
+				5D2E0E5E7C6F66C733493A16 /* btSoftBodyHelpers.cpp */,
+				10407744409F27D47CCE4BA4 /* btSoftBodyHelpers.h */,
+				2289527F21481EB847074F13 /* btSoftBodyInternals.h */,
+				7D690D4972E404165D084BE3 /* btSoftBodyRigidBodyCollisionConfiguration.cpp */,
+				3F50376953AE7770104553E6 /* btSoftBodyRigidBodyCollisionConfiguration.h */,
+				613F06C847990E9248F5763A /* btSoftBodySolverVertexBuffer.h */,
+				058B210551A33D07180D2B7B /* btSoftBodySolvers.h */,
+				45C944A66F4528914AFF2D15 /* btSoftRigidCollisionAlgorithm.cpp */,
+				264D17E031C10B38271F2231 /* btSoftRigidCollisionAlgorithm.h */,
+				560F7A3A7D77193167234D08 /* btSoftRigidDynamicsWorld.cpp */,
+				60741A4537D32B8E13367233 /* btSoftRigidDynamicsWorld.h */,
+				1DF8285E4A342DAA239A12E4 /* btSoftSoftCollisionAlgorithm.cpp */,
+				028D07C92FD96BE9309271F7 /* btSoftSoftCollisionAlgorithm.h */,
+				31E8794F4FD87FD32F050D72 /* btSparseSDF.h */,
+			);
+			name = BulletSoftBody;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547819180B686922463606BC /* BulletSoftBody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE902DB37A42E4602636852 /* Build configuration list for PBXNativeTarget "BulletSoftBody" */;
+			buildPhases = (
+				1E76127B013404F32F084E08 /* Resources */,
+				22D761FF6B8C6FFC41175318 /* Sources */,
+				652E5BF62B813E2121043478 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletSoftBody;
+			productName = BulletSoftBody;
+			productReference = 1F6E780652976FF9658270D1 /* libBulletSoftBodyMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletSoftBody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56B508B01AC73B0C3A843E31 /* BulletSoftBody */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547819180B686922463606BC /* BulletSoftBody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E76127B013404F32F084E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D761FF6B8C6FFC41175318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394E4662622979C307E03835 /* btDefaultSoftBodySolver.cpp in Sources */,
+				10F779583B6434C25C936905 /* btSoftBody.cpp in Sources */,
+				73A30A3C048146DD134F40DF /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */,
+				38C7378337D103E2127A1A7F /* btSoftBodyHelpers.cpp in Sources */,
+				3F39491A5F7A54AC18564965 /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */,
+				74FF3AEE0A8C6F3324110654 /* btSoftRigidCollisionAlgorithm.cpp in Sources */,
+				4B732BF9720469896200758C /* btSoftRigidDynamicsWorld.cpp in Sources */,
+				477F75EA07271DEE03805A4D /* btSoftSoftCollisionAlgorithm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		082C365F4CDE2B3F3CD1637F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"_DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../src/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		692C4F2B138707B734ED6768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../src/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73F01D3F24372E0618D102AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = BulletSoftBodyMac;
+			};
+			name = Release;
+		};
+		74E96DD7495719F667527720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = BulletSoftBodyMac;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE902DB37A42E4602636852 /* Build configuration list for PBXNativeTarget "BulletSoftBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F01D3F24372E0618D102AB /* Release */,
+				74E96DD7495719F667527720 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "BulletSoftBody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692C4F2B138707B734ED6768 /* Release */,
+				082C365F4CDE2B3F3CD1637F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

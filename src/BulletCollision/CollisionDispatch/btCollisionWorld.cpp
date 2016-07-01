@@ -65,6 +65,8 @@ subject to the following restrictions:
 #include "BulletCollision/CollisionShapes/btStaticPlaneShape.h"
 
 
+btScalar btCollisionWorld::s_transformScale = 1.0f;
+
 
 btCollisionWorld::btCollisionWorld(btDispatcher* dispatcher,btBroadphaseInterface* pairCache, btCollisionConfiguration* collisionConfiguration)
 :m_dispatcher1(dispatcher),
@@ -1314,7 +1316,7 @@ void btCollisionWorld::debugDrawObject(const btTransform& worldTransform, const 
 	// Draw a small simplex at the center of the object
 	if (getDebugDrawer() && getDebugDrawer()->getDebugMode() & btIDebugDraw::DBG_DrawFrames)
 	{
-		getDebugDrawer()->drawTransform(worldTransform,1);
+		getDebugDrawer()->drawTransform(worldTransform,s_transformScale);
 	}
 
 	if (shape->getShapeType() == COMPOUND_SHAPE_PROXYTYPE)

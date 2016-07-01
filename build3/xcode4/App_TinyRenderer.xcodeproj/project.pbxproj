@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3069EE236A31A23DB33A48 /* TinyRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72F162B7061B0BB34A647C6B /* TinyRenderer.cpp */; };
+		378850F10AE8331568A67FCE /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CD35B683E6841C25B3A512A /* geometry.cpp */; };
+		361B5739625E481C47871F03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 738D493E0DC72AA5659F4F1A /* main.cpp */; };
+		391120F4242642FE3D621AFA /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 162F02CD0D4202C171ED12B5 /* model.cpp */; };
+		1F31531711FA5BA364626B86 /* our_gl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32D5543C3B7A720C7B01268F /* our_gl.cpp */; };
+		1335284C2600059F4AB1427A /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16073C6C6AC162A1431C0B4D /* tgaimage.cpp */; };
+		234E6AE234853112151539C2 /* b3ResourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B0815721E6660A12B94365F /* b3ResourcePath.cpp */; };
+		57B3645679E124954AD424B7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F915C1489A2BF370981E97 /* OpenGL.framework */; };
+		471E2D63718411773E1C3E16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137022634B70CB351331378 /* Cocoa.framework */; };
+		085A659B2E0E58B90FA47E60 /* libOpenGL_Window.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4295658C6B534B8F423B5F44 /* libOpenGL_Window.a */; };
+		0F6A2837746F30D530430D08 /* libBullet3Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 644D1518712228FC758F2D8F /* libBullet3Common.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54700CCE4D4B7CDE6FE34313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1D59FA6D6E5D6250C40EA0 /* OpenGL_Window.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 317F3D486F9F412C39645735;
+			remoteInfo = "libOpenGL_Window_xcode4_x64_release.a";
+		};
+		30F7364C405A5DB40B267F2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1D59FA6D6E5D6250C40EA0 /* OpenGL_Window.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 599571E51D0A1B915E22317D;
+			remoteInfo = "libOpenGL_Window_xcode4_x64_release.a";
+		};
+		67D61D5030163451626B6507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598C05DE34C0542F79AE1D22 /* Bullet3Common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3A7452083E7F28531D312BF4;
+			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
+		};
+		544A67A50D764726399B25E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 598C05DE34C0542F79AE1D22 /* Bullet3Common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CD02D039F240B2115720C1;
+			remoteInfo = "libBullet3Common_xcode4_x64_release.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72F162B7061B0BB34A647C6B /* TinyRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "TinyRenderer.cpp"; path = "../../examples/TinyRenderer/TinyRenderer.cpp"; sourceTree = "<group>"; };
+		4E3A03061A6042ED101E3AB8 /* TinyRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TinyRenderer.h"; path = "../../examples/TinyRenderer/TinyRenderer.h"; sourceTree = "<group>"; };
+		3CD35B683E6841C25B3A512A /* geometry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "geometry.cpp"; path = "../../examples/TinyRenderer/geometry.cpp"; sourceTree = "<group>"; };
+		654B3F470A40719A53BF2755 /* geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "geometry.h"; path = "../../examples/TinyRenderer/geometry.h"; sourceTree = "<group>"; };
+		738D493E0DC72AA5659F4F1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../examples/TinyRenderer/main.cpp"; sourceTree = "<group>"; };
+		162F02CD0D4202C171ED12B5 /* model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "model.cpp"; path = "../../examples/TinyRenderer/model.cpp"; sourceTree = "<group>"; };
+		383602E928DE358D68CE698F /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "model.h"; path = "../../examples/TinyRenderer/model.h"; sourceTree = "<group>"; };
+		32D5543C3B7A720C7B01268F /* our_gl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "our_gl.cpp"; path = "../../examples/TinyRenderer/our_gl.cpp"; sourceTree = "<group>"; };
+		5F0344932477190351F15211 /* our_gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "our_gl.h"; path = "../../examples/TinyRenderer/our_gl.h"; sourceTree = "<group>"; };
+		16073C6C6AC162A1431C0B4D /* tgaimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "tgaimage.cpp"; path = "../../examples/TinyRenderer/tgaimage.cpp"; sourceTree = "<group>"; };
+		0045433755FE17FF7A7A1149 /* tgaimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tgaimage.h"; path = "../../examples/TinyRenderer/tgaimage.h"; sourceTree = "<group>"; };
+		3B0815721E6660A12B94365F /* b3ResourcePath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "b3ResourcePath.cpp"; path = "../../examples/Utils/b3ResourcePath.cpp"; sourceTree = "<group>"; };
+		18F915C1489A2BF370981E97 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OpenGL.framework"; path = "/System/Library/Frameworks/OpenGL.framework"; sourceTree = "<absolute>"; };
+		0137022634B70CB351331378 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "/System/Library/Frameworks/Cocoa.framework"; sourceTree = "<absolute>"; };
+		6F4C68897F8714C264B5532C /* App_TinyRenderer_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "App_TinyRenderer_xcode4_x64_release"; path = "App_TinyRenderer_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1D59FA6D6E5D6250C40EA0 /* OpenGL_Window.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "OpenGL_Window.xcodeproj"; path = "OpenGL_Window.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		598C05DE34C0542F79AE1D22 /* Bullet3Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bullet3Common.xcodeproj"; path = "Bullet3Common.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CC36375B46547015445A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B3645679E124954AD424B7 /* OpenGL.framework in Frameworks */,
+				471E2D63718411773E1C3E16 /* Cocoa.framework in Frameworks */,
+				085A659B2E0E58B90FA47E60 /* libOpenGL_Window.a in Frameworks */,
+				0F6A2837746F30D530430D08 /* libBullet3Common.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668421900F82313D22E56F3D /* App_TinyRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				1C22360D1AF00E4023B15D5C /* examples */,
+				29FF2E9E398209EF6AE63242 /* Frameworks */,
+				277D12A529836471688928D6 /* Products */,
+				7EE43554508E23F14DD63981 /* Projects */,
+			);
+			name = "App_TinyRenderer";
+			sourceTree = "<group>";
+		};
+		1C22360D1AF00E4023B15D5C /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				7B89763959D151163B943302 /* TinyRenderer */,
+				0FC97312440C048F669611DC /* Utils */,
+			);
+			name = "examples";
+			sourceTree = "<group>";
+		};
+		7B89763959D151163B943302 /* TinyRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				72F162B7061B0BB34A647C6B /* TinyRenderer.cpp */,
+				4E3A03061A6042ED101E3AB8 /* TinyRenderer.h */,
+				3CD35B683E6841C25B3A512A /* geometry.cpp */,
+				654B3F470A40719A53BF2755 /* geometry.h */,
+				738D493E0DC72AA5659F4F1A /* main.cpp */,
+				162F02CD0D4202C171ED12B5 /* model.cpp */,
+				383602E928DE358D68CE698F /* model.h */,
+				32D5543C3B7A720C7B01268F /* our_gl.cpp */,
+				5F0344932477190351F15211 /* our_gl.h */,
+				16073C6C6AC162A1431C0B4D /* tgaimage.cpp */,
+				0045433755FE17FF7A7A1149 /* tgaimage.h */,
+			);
+			name = "TinyRenderer";
+			sourceTree = "<group>";
+		};
+		0FC97312440C048F669611DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3B0815721E6660A12B94365F /* b3ResourcePath.cpp */,
+			);
+			name = "Utils";
+			sourceTree = "<group>";
+		};
+		29FF2E9E398209EF6AE63242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F915C1489A2BF370981E97 /* OpenGL.framework */,
+				0137022634B70CB351331378 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		277D12A529836471688928D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C68897F8714C264B5532C /* App_TinyRenderer_xcode4_x64_release */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		7EE43554508E23F14DD63981 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				5D1D59FA6D6E5D6250C40EA0 /* OpenGL_Window.xcodeproj */,
+				598C05DE34C0542F79AE1D22 /* Bullet3Common.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		159A4B7A524F41911A4D5972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4295658C6B534B8F423B5F44 /* libOpenGL_Window.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CFB79A702C7592205D10E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644D1518712228FC758F2D8F /* libBullet3Common.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140905C34E4735BA4C285D30 /* App_TinyRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330605F539090E1477D54949 /* Build configuration list for PBXNativeTarget "App_TinyRenderer" */;
+			buildPhases = (
+				171C5E6942C73D9469861413 /* Resources */,
+				23080472002E6F264390605E /* Sources */,
+				68CC36375B46547015445A0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				006101C47CD26FE872593CC7 /* PBXTargetDependency */,
+				6C3941A220593B060FBA3893 /* PBXTargetDependency */,
+			);
+			name = "App_TinyRenderer";
+			productInstallPath = "$(HOME)/bin";
+			productName = "App_TinyRenderer";
+			productReference = 6F4C68897F8714C264B5532C /* App_TinyRenderer_xcode4_x64_release */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_TinyRenderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 668421900F82313D22E56F3D /* App_TinyRenderer */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 159A4B7A524F41911A4D5972 /* Products */;
+					ProjectRef = 5D1D59FA6D6E5D6250C40EA0 /* OpenGL_Window.xcodeproj */;
+				},
+				{
+					ProductGroup = 4CFB79A702C7592205D10E77 /* Products */;
+					ProjectRef = 598C05DE34C0542F79AE1D22 /* Bullet3Common.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				140905C34E4735BA4C285D30 /* App_TinyRenderer_xcode4_x64_release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4295658C6B534B8F423B5F44 /* libOpenGL_Window.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libOpenGL_Window.a";
+			remoteRef = 54700CCE4D4B7CDE6FE34313 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		644D1518712228FC758F2D8F /* libBullet3Common.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libBullet3Common.a";
+			remoteRef = 67D61D5030163451626B6507 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171C5E6942C73D9469861413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23080472002E6F264390605E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3069EE236A31A23DB33A48 /* TinyRenderer.cpp in Sources */,
+				378850F10AE8331568A67FCE /* geometry.cpp in Sources */,
+				361B5739625E481C47871F03 /* main.cpp in Sources */,
+				391120F4242642FE3D621AFA /* model.cpp in Sources */,
+				1F31531711FA5BA364626B86 /* our_gl.cpp in Sources */,
+				1335284C2600059F4AB1427A /* tgaimage.cpp in Sources */,
+				234E6AE234853112151539C2 /* b3ResourcePath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		006101C47CD26FE872593CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libOpenGL_Window.a";
+			targetProxy = 30F7364C405A5DB40B267F2D /* PBXContainerItemProxy */;
+		};
+		6C3941A220593B060FBA3893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libBullet3Common.a";
+			targetProxy = 544A67A50D764726399B25E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10EF5F8122DF1CF9419C79BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_TinyRenderer_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		500033C75E3C3E110D9B52F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "App_TinyRenderer_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		0E8C218D366D345C0E2526C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/TinyRenderer",
+					"../../src",
+					"../../examples",
+				);
+				OBJROOT = "obj/x64/Release/App_TinyRenderer";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		6A7D37A21629769137D13687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/TinyRenderer",
+					"../../src",
+					"../../examples",
+				);
+				OBJROOT = "obj/x64/Debug/App_TinyRenderer";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330605F539090E1477D54949 /* Build configuration list for PBXNativeTarget "App_TinyRenderer_xcode4_x64_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EF5F8122DF1CF9419C79BF /* Release */,
+				500033C75E3C3E110D9B52F9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "App_TinyRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8C218D366D345C0E2526C1 /* Release */,
+				6A7D37A21629769137D13687 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

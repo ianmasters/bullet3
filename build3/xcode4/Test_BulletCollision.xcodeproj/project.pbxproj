@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F24AB6743E2E2252FD1EDA /* btCollisionShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B311A730869533A313B25CF /* btCollisionShape.cpp */; };
+		58594FF9700C550D71B075B5 /* btConvexInternalShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00402B151DF21FD964972694 /* btConvexInternalShape.cpp */; };
+		4CF4643706270E2015004742 /* btConvexPolyhedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DE0008259970834140B1E73 /* btConvexPolyhedron.cpp */; };
+		3B7241E60A50480E180A5BCF /* btConvexShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 531D2A7D1FAD489F6E166A0C /* btConvexShape.cpp */; };
+		45794C9440CE2D5218584DFF /* btMultiSphereShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E2743EA6E6144CE3C416855 /* btMultiSphereShape.cpp */; };
+		012B38A21FFA7DCD4CA1690D /* btPolyhedralConvexShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E64301835BD1160386E55A3 /* btPolyhedralConvexShape.cpp */; };
+		068C532D6D214F8670E83179 /* btSphereShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12B553B06FE53F361348626B /* btSphereShape.cpp */; };
+		184E504E5581203D0BC1695B /* btVoronoiSimplexSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70B641DE7DA56A4559B26B54 /* btVoronoiSimplexSolver.cpp */; };
+		70DA0F274BA224617ACA1027 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75FD374343F66F43578516E4 /* main.cpp */; };
+		38F62D70253C372572C455BD /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB65AD16DBA0EFB314A2A12 /* libLinearMath.a */; };
+		3B3E71EE7F7E54883B1D77A8 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D285DB267F448974DAA592F /* libgtest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E053DAA7FA9621578B070B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4456A9110A4A0676271D1F /* LinearMath.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 088E3462278D5899371A3001;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+		499C3868420E30B15CF76F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E4456A9110A4A0676271D1F /* LinearMath.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 17474CEE3E7E65E933BE3BAA;
+			remoteInfo = "libLinearMath_xcode4_x64_release.a";
+		};
+		559F41C45C954A905D032507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8E547E3CD95E6D00F24528 /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 796B179F0399585E10325BFA;
+			remoteInfo = "libgtest_xcode4_x64_release.a";
+		};
+		18005C8B40160ABE4F3D531B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8E547E3CD95E6D00F24528 /* gtest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 383C13CF14F24CEF0C8570A0;
+			remoteInfo = "libgtest_xcode4_x64_release.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B311A730869533A313B25CF /* btCollisionShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btCollisionShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btCollisionShape.cpp"; sourceTree = "<group>"; };
+		00402B151DF21FD964972694 /* btConvexInternalShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btConvexInternalShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btConvexInternalShape.cpp"; sourceTree = "<group>"; };
+		7DE0008259970834140B1E73 /* btConvexPolyhedron.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btConvexPolyhedron.cpp"; path = "../../src/BulletCollision/CollisionShapes/btConvexPolyhedron.cpp"; sourceTree = "<group>"; };
+		531D2A7D1FAD489F6E166A0C /* btConvexShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btConvexShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btConvexShape.cpp"; sourceTree = "<group>"; };
+		1E2743EA6E6144CE3C416855 /* btMultiSphereShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btMultiSphereShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btMultiSphereShape.cpp"; sourceTree = "<group>"; };
+		2E64301835BD1160386E55A3 /* btPolyhedralConvexShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btPolyhedralConvexShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.cpp"; sourceTree = "<group>"; };
+		12B553B06FE53F361348626B /* btSphereShape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btSphereShape.cpp"; path = "../../src/BulletCollision/CollisionShapes/btSphereShape.cpp"; sourceTree = "<group>"; };
+		70B641DE7DA56A4559B26B54 /* btVoronoiSimplexSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "btVoronoiSimplexSolver.cpp"; path = "../../src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp"; sourceTree = "<group>"; };
+		63FE795D714642DC11EB7340 /* btVoronoiSimplexSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "btVoronoiSimplexSolver.h"; path = "../../src/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h"; sourceTree = "<group>"; };
+		1D0E3202441C10AF60EE5419 /* SphereSphereCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SphereSphereCollision.h"; path = "../../test/collision/SphereSphereCollision.h"; sourceTree = "<group>"; };
+		64F876C90C5737EE7C4145DC /* btDistanceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "btDistanceInfo.h"; path = "../../test/collision/btDistanceInfo.h"; sourceTree = "<group>"; };
+		75FD374343F66F43578516E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../test/collision/main.cpp"; sourceTree = "<group>"; };
+		1E352CAA7D2E149D6BBA1D85 /* Test_BulletCollision_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Test_BulletCollision_xcode4_x64_release"; path = "Test_BulletCollision_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4456A9110A4A0676271D1F /* LinearMath.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "LinearMath.xcodeproj"; path = "LinearMath.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1C8E547E3CD95E6D00F24528 /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "gtest.xcodeproj"; path = "gtest.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D24D6F3E6105E12F7F7AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F62D70253C372572C455BD /* libLinearMath.a in Frameworks */,
+				3B3E71EE7F7E54883B1D77A8 /* libgtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B42F415C9358285BBB7285 /* Test_BulletCollision */ = {
+			isa = PBXGroup;
+			children = (
+				7BB60D975A34394B1DAB7B1D /* src */,
+				74D8428F76340EC675A5522A /* test */,
+				7C30526C6F2A4D567EDE3601 /* Products */,
+				1C45769D7C2019356F712266 /* Projects */,
+			);
+			name = "Test_BulletCollision";
+			sourceTree = "<group>";
+		};
+		7BB60D975A34394B1DAB7B1D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				37E07AA77D225D7879BD1483 /* BulletCollision */,
+			);
+			name = "src";
+			sourceTree = "<group>";
+		};
+		37E07AA77D225D7879BD1483 /* BulletCollision */ = {
+			isa = PBXGroup;
+			children = (
+				4BC10C4B489D3C4F10F95F39 /* CollisionShapes */,
+				284A268E34B91A93563960C0 /* NarrowPhaseCollision */,
+			);
+			name = "BulletCollision";
+			sourceTree = "<group>";
+		};
+		4BC10C4B489D3C4F10F95F39 /* CollisionShapes */ = {
+			isa = PBXGroup;
+			children = (
+				3B311A730869533A313B25CF /* btCollisionShape.cpp */,
+				00402B151DF21FD964972694 /* btConvexInternalShape.cpp */,
+				7DE0008259970834140B1E73 /* btConvexPolyhedron.cpp */,
+				531D2A7D1FAD489F6E166A0C /* btConvexShape.cpp */,
+				1E2743EA6E6144CE3C416855 /* btMultiSphereShape.cpp */,
+				2E64301835BD1160386E55A3 /* btPolyhedralConvexShape.cpp */,
+				12B553B06FE53F361348626B /* btSphereShape.cpp */,
+			);
+			name = "CollisionShapes";
+			sourceTree = "<group>";
+		};
+		284A268E34B91A93563960C0 /* NarrowPhaseCollision */ = {
+			isa = PBXGroup;
+			children = (
+				70B641DE7DA56A4559B26B54 /* btVoronoiSimplexSolver.cpp */,
+				63FE795D714642DC11EB7340 /* btVoronoiSimplexSolver.h */,
+			);
+			name = "NarrowPhaseCollision";
+			sourceTree = "<group>";
+		};
+		74D8428F76340EC675A5522A /* test */ = {
+			isa = PBXGroup;
+			children = (
+				658859E37A6C6393684B5322 /* collision */,
+			);
+			name = "test";
+			sourceTree = "<group>";
+		};
+		658859E37A6C6393684B5322 /* collision */ = {
+			isa = PBXGroup;
+			children = (
+				1D0E3202441C10AF60EE5419 /* SphereSphereCollision.h */,
+				64F876C90C5737EE7C4145DC /* btDistanceInfo.h */,
+				75FD374343F66F43578516E4 /* main.cpp */,
+			);
+			name = "collision";
+			sourceTree = "<group>";
+		};
+		7C30526C6F2A4D567EDE3601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E352CAA7D2E149D6BBA1D85 /* Test_BulletCollision_xcode4_x64_release */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1C45769D7C2019356F712266 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				7E4456A9110A4A0676271D1F /* LinearMath.xcodeproj */,
+				1C8E547E3CD95E6D00F24528 /* gtest.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		1ED60DCB1F7409F6142510D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB65AD16DBA0EFB314A2A12 /* libLinearMath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0185703B61457E1347CC4492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D285DB267F448974DAA592F /* libgtest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38AD01293DFB35DA38FC6287 /* Test_BulletCollision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA411157CA6098044B02E08 /* Build configuration list for PBXNativeTarget "Test_BulletCollision" */;
+			buildPhases = (
+				38B3290056755C4622AC5D1D /* Resources */,
+				57F6780A7860746E0F7E44A8 /* Sources */,
+				05D24D6F3E6105E12F7F7AF7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E041717A647576416212D7 /* PBXTargetDependency */,
+				15AC05E271593B9A184C51D6 /* PBXTargetDependency */,
+			);
+			name = "Test_BulletCollision";
+			productInstallPath = "$(HOME)/bin";
+			productName = "Test_BulletCollision";
+			productReference = 1E352CAA7D2E149D6BBA1D85 /* Test_BulletCollision_xcode4_x64_release */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_BulletCollision" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 78B42F415C9358285BBB7285 /* Test_BulletCollision */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1ED60DCB1F7409F6142510D2 /* Products */;
+					ProjectRef = 7E4456A9110A4A0676271D1F /* LinearMath.xcodeproj */;
+				},
+				{
+					ProductGroup = 0185703B61457E1347CC4492 /* Products */;
+					ProjectRef = 1C8E547E3CD95E6D00F24528 /* gtest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				38AD01293DFB35DA38FC6287 /* Test_BulletCollision_xcode4_x64_release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7AB65AD16DBA0EFB314A2A12 /* libLinearMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libLinearMath.a";
+			remoteRef = 4E053DAA7FA9621578B070B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D285DB267F448974DAA592F /* libgtest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libgtest.a";
+			remoteRef = 559F41C45C954A905D032507 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38B3290056755C4622AC5D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F6780A7860746E0F7E44A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F24AB6743E2E2252FD1EDA /* btCollisionShape.cpp in Sources */,
+				58594FF9700C550D71B075B5 /* btConvexInternalShape.cpp in Sources */,
+				4CF4643706270E2015004742 /* btConvexPolyhedron.cpp in Sources */,
+				3B7241E60A50480E180A5BCF /* btConvexShape.cpp in Sources */,
+				45794C9440CE2D5218584DFF /* btMultiSphereShape.cpp in Sources */,
+				012B38A21FFA7DCD4CA1690D /* btPolyhedralConvexShape.cpp in Sources */,
+				068C532D6D214F8670E83179 /* btSphereShape.cpp in Sources */,
+				184E504E5581203D0BC1695B /* btVoronoiSimplexSolver.cpp in Sources */,
+				70DA0F274BA224617ACA1027 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		05E041717A647576416212D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libLinearMath.a";
+			targetProxy = 499C3868420E30B15CF76F83 /* PBXContainerItemProxy */;
+		};
+		15AC05E271593B9A184C51D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libgtest.a";
+			targetProxy = 18005C8B40160ABE4F3D531B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08026A7C144767AD2C802603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_BulletCollision_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		614672E66B8839A513B81525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_BulletCollision_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		3C67389A1F3C3C3C0D560B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../test/collision",
+					"../../src",
+					"../../test/gtest-1.7.0/include",
+				);
+				OBJROOT = "obj/x64/Release/Test_BulletCollision";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		530C5860448F3846332568AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT) $(ARCHS_STANDARD_64_BIT)";
+				VALID_ARCHS = "x86_64 i386";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../test/collision",
+					"../../src",
+					"../../test/gtest-1.7.0/include",
+				);
+				OBJROOT = "obj/x64/Debug/Test_BulletCollision";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA411157CA6098044B02E08 /* Build configuration list for PBXNativeTarget "Test_BulletCollision_xcode4_x64_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08026A7C144767AD2C802603 /* Release */,
+				614672E66B8839A513B81525 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_BulletCollision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67389A1F3C3C3C0D560B68 /* Release */,
+				530C5860448F3846332568AC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
